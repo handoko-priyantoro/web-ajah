@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!--NAVIGATION-->
+    <h2>Article Form</h2>
+    <form action="/article/create_article" method="POST">
+    <div class="form-group">
+        <table for="inputTitle">Title</table>
+        <input type="text" name="title" class="form-control" id="inputTitle" placeholder="YourTitle">
+    </div>
+    
+    <div class="form-group">
+        <table for="inputAuthor">Author</table>
+        <input type="text" name="Author" class="form-control" id="inputAuthor" placeholder="YourAuthor">
+    </div>
+
+    <div class="form-group">
+            <table for="inputDescription">Author</table>
+            <textarea name="description"   cols="30" row="10" id="inputDescription" class="form-control"></textarea>
+    </div>
+
+    </form>
+</body>
+</html>
